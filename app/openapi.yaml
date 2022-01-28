@@ -1,0 +1,37 @@
+---
+
+# See https://swagger.io/specification/
+
+
+externalDocs:
+  description: Docs
+  url: /docs
+
+
+info:
+  description: Connexion
+  title: Connexion
+  version: "0.0.1"
+  license:
+    name: License
+    url: /license
+
+
+openapi: "3.0.0"
+
+
+paths:
+  /hello-world:
+    get:
+      tags:
+        - app.test
+      summary: Test
+      operationId: app.operations.view_get_hello_world
+      responses:
+        '200':
+          description: OK
+
+
+servers:
+  - url: /api/v0
+    description: localhost

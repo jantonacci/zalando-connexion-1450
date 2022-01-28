@@ -1,0 +1,4 @@
+# Pip install pytest and other CI/CD pipeline packages w/ `pip install --requirement requirements-ci.txt`
+
+# Connexion RESTful API framework defined in app.py
+connexion[swagger-ui]>=2.7.0,<3
